@@ -25,6 +25,18 @@ it("should return 'fizzbuzz' if number is divisible by 5 and 3", function() {
   expect(number.fizz_buzz_calc(15)).toBe('fizzBuzz');
 });
 
+it("should return 'fizz' if number is divisible by 6", function() {
+  expect(number.fizz_buzz_calc(6)).toBe('fizz');
+});
+
+it("should return 8 if number 8", function() {
+  expect(number.fizz_buzz_calc(8)).toEqual(8);
+});
+
+it("should return 'buzz' if number is divisible by 10", function() {
+  expect(number.fizz_buzz_calc(10)).toBe('buzz');
+});
+
 });
 
 /*
