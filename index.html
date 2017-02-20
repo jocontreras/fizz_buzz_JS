@@ -2,21 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <script src="src/person.js"></script>
-    <script src="src/bmi_calculator.js"></script>
-    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+    <title>Fizzbuzz Game</title>
+     <link rel="stylesheet" href="./css/styles.css">
+    <script src="assets/js/fizzBuzz.js"></script>
+    <script src="assets/js/apps.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript">
+
+  $(document).ready(function () {
+    $('#play').click(function () {
+      var i = ($('#number').val());
+      var calculator = new FizzBuzzCalculator();
+      var message = calculator.fizz_buzz_calc(i);
+      $('#display_message').html(message);
+    });
+  });
+</script>
   </head>
   <body>
-    <form>
-      <input type="text" id="weight" placeholder="Weight">
-      <input type="text" id="height" placeholder="Height">
-      <input type="button" id="calculate" value="Calculate">
-    </form>
-    <div>
-      <span id="display_value"></span>
-      <span id="display_message"></span>
+    <center>
 
+    <div class="box">
+      <h1>FizzBuzz Game</h1>
+      <span class="spec_box">
+      <form>
+        <input type="text" id="number" placeholder="number">
+        <input type="button" id="play" value="Click here to play">
+      </form>
+    </span>
+      <span id="display_message"></span>
     </div>
+  </center>
   </body>
 </html>
