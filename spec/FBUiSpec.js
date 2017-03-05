@@ -13,13 +13,7 @@ describe('FizzBuzz_UI - index.html', function() {
         })
       }
 
-  //  it("Displays Fizz Message if the number is divisible by 3", function() {
-  //      expect($('#display_message').text()).toBe('FIzz');
-  //  });
-
-  //  it("Displays Buzz Message if the number is divisible by 5", function() {
-  //      expect($('#display_message').text()).toBe('Buzz');
-  //  });
+  
 
 
 });

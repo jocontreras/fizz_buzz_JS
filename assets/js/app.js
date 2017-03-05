@@ -7,7 +7,7 @@
 }
 */
 
-$(document).ready(function () {
+$(document).ready(function(){
  $('#bgpicture').show();
   $('#play').click(function () {
     var num = ($('#number').val());
@@ -15,5 +15,4 @@ $(document).ready(function () {
     var message = calculator.fizz_buzz_calc(num);
     $('#display_message').html(message);
   });
-
-  
+}
