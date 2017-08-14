@@ -108,3 +108,6 @@ describe("Given my code", function () {
 	});
 });
 ```
+## Screenshot:
+
+![screen shot 2017-08-14 at 11 27 08 pm](https://user-images.githubusercontent.com/13605349/29292749-a265697c-8148-11e7-8ea3-40ea345abca6.png)
