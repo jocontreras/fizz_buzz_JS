@@ -5,7 +5,7 @@ Fizzbuzz is a group word game for children to teach them about division. It’s 
 The rules:
 1. If the number is divisible by 3, the person doesn’t say the number, instead, they say “Fizz!”.
 2. If the number contains a 5, the player must say “Buzz!”.
-3. Similarly, if the number is divisible by 3 and 5 a they must say “FizzBuzz!”.
+3. Similarly, if the number is divisible by 3 and 5  they must say “FizzBuzz!”.
 
 These fizzes and buzzes combine together — for example, instead of 35, the player will say “Fizz, fizz, buzz!”, because the number contains a 5, is divisible by 5, and is divisible by 7.
 
@@ -25,7 +25,7 @@ For the web interface there is this User story
 
 As an individual
 So that I can check a number when playing FizzBuzz
-I would like to be able to enter a number in an field, click a button and see
+I would like to be able to enter a number in a field, click a button and see
 the output according to the FizzBuzz rules.
 
 ## Setting up the Project
